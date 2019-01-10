@@ -1,0 +1,17 @@
+body{
+    font-family: Freshman, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    line-height: 60px;
+    font-size: 50px;
+    width: 1200px;
+    margin: auto;
+}
+
+header{
+    display: inline-block;
+}
+
+img{
+    width: 120px;
+    height: 160px;
+}

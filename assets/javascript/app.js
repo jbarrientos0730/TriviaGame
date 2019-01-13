@@ -11,10 +11,20 @@ $(document).ready(function() {
 
     $(window).on("load", hide);
 
-    $("#triviaStart"),on("click", function() {
+    $("#triviaStart").on("click", function() {
         $(this).hide();
         show();
         run();
     });
-    
+
+    $("#finish").on("click", function() {
+        $("#triviaStart").hide();
+        hide();
+        triviaSumm();
+        stop();
+    }):
+
+    function triviaSumm(){
+        
+    }
 }

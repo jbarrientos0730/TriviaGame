@@ -9,8 +9,8 @@ body{
 }
 
 header{
-    margin: 10px;
-    display: inline;
+    margin: auto;
+    width: 900px;
 }
 
 h1{
@@ -29,4 +29,13 @@ button{
     width: 100px;
     height: 50px;
     text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.questions{
+    background: white;
+    padding: 10px;
+    margin: auto;
+    width: 900px;
 }

@@ -59,13 +59,13 @@ $(document).ready(function() {
 
     function hide(){
         $(".questions").hide();
-        $("#triviaStart").show();
+        $("#triviaStart").hide();
         $("#finish").hide();
     }
 
     function show() {
         $(".questions").show();
-        $("#triviaStart").hide();
+        $("#triviaStart").show();
         $("#finish").show();
     }
 

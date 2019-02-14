@@ -9,7 +9,7 @@ $(document).ready(function() {
         intervalId = setInterval(decrement, 1000);
     }
 
-    $(window).on("load", hide);
+//     $(window).on("load", hide);
 
     $("#triviaStart").on("click", function() {
         $(this).hide();

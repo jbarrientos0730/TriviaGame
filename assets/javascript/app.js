@@ -9,7 +9,7 @@ $(document).ready(function() {
         intervalId = setInterval(decrement, 1000);
     }
 
-//     $(window).on("load", hide);
+    $(window).on("load", hide);
 
     $("#triviaStart").on("click", function() {
         $(this).hide();
@@ -59,13 +59,13 @@ $(document).ready(function() {
 
     function hide(){
         $(".questions").hide();
-        $("#triviaStart").hide();
+        $("#triviaStart").show();
         $("#finish").hide();
     }
 
     function show() {
         $(".questions").show();
-        $("#triviaStart").show();
+        $("#triviaStart").hide();
         $("#finish").show();
     }
 
